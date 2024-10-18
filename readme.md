@@ -12,7 +12,7 @@ This project provides a Python script for retrieving and processing Excel files 
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.12
 - pandas
 - google-auth
 - google-auth-oauthlib
@@ -26,7 +26,7 @@ This project provides a Python script for retrieving and processing Excel files 
 2. Install the required Python packages:
 
    ```
-   pip install pandas google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
+   uv pip install -r requirements.txt
    ```
 
 3. Set up Google Drive API credentials:
@@ -34,14 +34,14 @@ This project provides a Python script for retrieving and processing Excel files 
    - Create a new project (or select an existing one)
    - Enable the Google Drive API
    - Create a service account and download the JSON key file
-   - Rename the key file to `credentials.json` and place it in the same directory as the script
+   - Rename(optional) the key file to `credentials.json` and place it in the same directory as the script
 
 ## Usage
 
 1. Run the script:
 
    ```
-   python google_drive_data_retrieval.py
+  py Read_Files.py
    ```
 
 2. When prompted, enter the Google Drive folder ID or the full folder URL containing the Excel files you want to process.
@@ -65,8 +65,8 @@ This project provides a Python script for retrieving and processing Excel files 
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-your-issues-page) if you want to contribute.
+Contributions, issues, and feature requests are welcome. 
 
 ## License
 
-[Specify your license here, e.g., MIT, GPL, etc.]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
