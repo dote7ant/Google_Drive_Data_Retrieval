@@ -167,8 +167,14 @@ cython_debug/
 
 
 # Project-Specific
+/Logic/cleaned_data_20250120_144927.csv
+/Logic/combined_excel_data_20250120_111453.xlsx
+/Logic/combined_excel_data_20250120_111919.csv
 
-/solar_venv
+solar_venv/
 /logic/credentials.json
-/.gitignore
-gitignore
+
+
+
+#D:\work\New folder\Solar Analysis\Google_Drive_Data_Retrieval\.gitignore
+#D:\work\New folder\Solar Analysis\Google_Drive_Data_Retrieval\Logic\cleaned_data_20250120_144927.csv
